@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ITCnance
+
+  Created by Michał Bagrowski on 03/07/2023.
+  
+*/
+
+"api.key" = "Klucz API";
+"secret.key" = "Sekretny klucz";
+"continue" = "Dalej";
+"try.demo" = "Spróbuj Demo";
+"log.in" = "Zaloguj się";
