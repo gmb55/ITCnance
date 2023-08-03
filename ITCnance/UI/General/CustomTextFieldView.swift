@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct CustomTextFieldView: View {
-    let type: CustomTextFieldType
+    private let type: CustomTextFieldType
     @Binding var text: String
-
+    
+    init(type: CustomTextFieldType, text: Binding<String>) {
+        self.type = type
+        self._text = text
+    }
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             Text(type.title)

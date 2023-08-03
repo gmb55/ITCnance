@@ -23,9 +23,9 @@ enum CustomTextFieldType {
     var title: String {
         switch self {
         case .apiKey:
-            return String(localized: "api.key")
+            return "api.key".localized()
         case .secureKey:
-            return String(localized: "secret.key")
+            return "secret.key".localized()
         }
     }
 }
