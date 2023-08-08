@@ -24,16 +24,31 @@ enum Constants {
     }
     
     enum API {
-        static var baseURL: URL? {
+        case binance
+        case byBit
+        
+        enum Header: String, CaseIterable {
+            case apiKey
+            case timestamp
+            case signature
+        }
+        
+        func baseURLString() -> String {
             switch environment {
             case .development:
-                return URL(
-                    string: "https://testnet.binancefuture.com"
-                )
+                switch self {
+                case .binance:
+                    return "https://testnet.binancefuture.com"
+                case .byBit:
+                    return "https://api-testnet.bybit.com"
+                }
             case .production:
-                return URL(
-                    string: "https://fapi.binance.com"
-                )
+                switch self {
+                case .binance:
+                    return "https://fapi.binance.com"
+                case .byBit:
+                    return "https://api.bybit.com"
+                }
             }
         }
     }
