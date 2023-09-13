@@ -1,5 +1,5 @@
 //
-//  BinanceBalance.swift
+//  BalanceBinance.swift
 //  ITCnance
 //
 //  Created by Michał Bagrowski on 06/08/2023.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BinanceBalance: Codable {
+struct BalanceBinance: Codable {
     let accountAlias: String
     let asset: String
     let balance: String

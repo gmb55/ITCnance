@@ -13,33 +13,19 @@ enum HTTPMethod: String {
     case post = "POST"
 }
 
-struct RequestModel {
-    var baseURL: String
-    var endpoint: String
-    var method: HTTPMethod
-    var parameters: [String : Any]
-    
-    init(
-        baseURL: String,
-        endpoint: String,
-        method: HTTPMethod = .get,
-        parameters: [String : Any] = [:]
-    ) {
-        self.baseURL = baseURL
-        self.endpoint = endpoint
-        self.method = method
-        self.parameters = parameters
-    }
+protocol RequestManager {
+    func makeRequest(url: URL, headers: [String : String],  method: HTTPMethod) -> URLRequest
 }
 
-protocol RequestManager {
-    var requestModel: RequestModel { get }
-    var loginModel: LoginModel { get }
-    
-    func urlRequest() throws -> URLRequest
-    
-    init (
-        requestModel: RequestModel,
-        loginModel: LoginModel
-    )
+struct RequestManagerImp: RequestManager {
+    func makeRequest(url: URL, headers: [String : String], method: HTTPMethod) -> URLRequest {
+        var request = URLRequest(url: url)
+        request.httpMethod = method.rawValue
+
+        headers.forEach { header in
+            request.setValue(header.value, forHTTPHeaderField: header.key)
+        }
+
+        return request
+    }
 }

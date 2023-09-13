@@ -14,16 +14,30 @@
 		687330482A4F5CFC005283A0 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330472A4F5CFC005283A0 /* MainContentView.swift */; };
 		6873304A2A4F5CFD005283A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687330492A4F5CFD005283A0 /* Assets.xcassets */; };
 		6873304D2A4F5CFD005283A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6873304C2A4F5CFD005283A0 /* Preview Assets.xcassets */; };
-		687330572A4F5CFD005283A0 /* ITCnanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330562A4F5CFD005283A0 /* ITCnanceTests.swift */; };
 		687330612A4F5CFD005283A0 /* ITCnanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330602A4F5CFD005283A0 /* ITCnanceUITests.swift */; };
 		687330632A4F5CFD005283A0 /* ITCnanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330622A4F5CFD005283A0 /* ITCnanceUITestsLaunchTests.swift */; };
 		687330732A4F61C7005283A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330722A4F61C7005283A0 /* LoginView.swift */; };
 		687330772A4F6299005283A0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330762A4F6299005283A0 /* LoginViewModel.swift */; };
 		687330792A4F6436005283A0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687330782A4F6436005283A0 /* Colors.xcassets */; };
-		6887270C2A7D957C00C29233 /* BinanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270B2A7D957C00C29233 /* BinanceService.swift */; };
-		6887270D2A7D957C00C29233 /* BinanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270B2A7D957C00C29233 /* BinanceService.swift */; };
+		688105C32AB1A8EC00D70ABC /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105C22AB1A8EC00D70ABC /* ErrorMessage.swift */; };
+		688105C42AB1A8EC00D70ABC /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105C22AB1A8EC00D70ABC /* ErrorMessage.swift */; };
+		688105C62AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105C52AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift */; };
+		688105C72AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105C52AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift */; };
+		688105C92AB1B79F00D70ABC /* AccountInfoBinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105C82AB1B79F00D70ABC /* AccountInfoBinance.swift */; };
+		688105CA2AB1B79F00D70ABC /* AccountInfoBinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105C82AB1B79F00D70ABC /* AccountInfoBinance.swift */; };
+		688105CC2AB1BAAF00D70ABC /* AccountInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105CB2AB1BAAF00D70ABC /* AccountInfoDTO.swift */; };
+		688105CD2AB1BAAF00D70ABC /* AccountInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105CB2AB1BAAF00D70ABC /* AccountInfoDTO.swift */; };
+		688105CF2AB1CB4800D70ABC /* ITCnanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105CE2AB1CB4800D70ABC /* ITCnanceTests.swift */; };
+		6887270C2A7D957C00C29233 /* BinanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270B2A7D957C00C29233 /* BinanceProvider.swift */; };
+		6887270D2A7D957C00C29233 /* BinanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270B2A7D957C00C29233 /* BinanceProvider.swift */; };
 		6887270F2A7D95BD00C29233 /* URLSession+HTTPWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270E2A7D95BD00C29233 /* URLSession+HTTPWorker.swift */; };
 		688727102A7D95BD00C29233 /* URLSession+HTTPWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270E2A7D95BD00C29233 /* URLSession+HTTPWorker.swift */; };
+		689997192AA4AA2500671E34 /* BinanceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */; };
+		6899971A2AA4AA2500671E34 /* BinanceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */; };
+		6899971C2AA4AA6700671E34 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971B2AA4AA6700671E34 /* Endpoint.swift */; };
+		6899971D2AA4AA6700671E34 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971B2AA4AA6700671E34 /* Endpoint.swift */; };
+		6899971F2AA4AB6300671E34 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971E2AA4AB6300671E34 /* URLBuilder.swift */; };
+		689997202AA4AB6300671E34 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971E2AA4AB6300671E34 /* URLBuilder.swift */; };
 		68A85EF32A569AAB00EDFED1 /* VShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACBEAF2A52D83E006B5D7B /* VShape.swift */; };
 		68A85EF62A569AAB00EDFED1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330762A4F6299005283A0 /* LoginViewModel.swift */; };
 		68A85EF82A569AAB00EDFED1 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACBEB42A533228006B5D7B /* CustomButtonStyle.swift */; };
@@ -60,18 +74,19 @@
 		68ACBEDF2A5357B1006B5D7B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACBEDE2A5357B1006B5D7B /* Constants.swift */; };
 		68ADEFBA2A7F72CC00ED207F /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFB92A7F72CC00ED207F /* RequestManager.swift */; };
 		68ADEFBB2A7F72CD00ED207F /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFB92A7F72CC00ED207F /* RequestManager.swift */; };
-		68ADEFC02A7F932700ED207F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFBF2A7F932700ED207F /* APIProvider.swift */; };
-		68ADEFC12A7F932700ED207F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFBF2A7F932700ED207F /* APIProvider.swift */; };
-		68ADEFC52A7F9CDF00ED207F /* BinanceRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFC42A7F9CDF00ED207F /* BinanceRequestManager.swift */; };
-		68ADEFC62A7F9CDF00ED207F /* BinanceRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFC42A7F9CDF00ED207F /* BinanceRequestManager.swift */; };
-		68ADEFCD2A7FCBDB00ED207F /* BinanceBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFCC2A7FCBDB00ED207F /* BinanceBalance.swift */; };
-		68ADEFCE2A7FCBDB00ED207F /* BinanceBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFCC2A7FCBDB00ED207F /* BinanceBalance.swift */; };
-		68AE64782A7E6EC200DC6B25 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE64772A7E6EC200DC6B25 /* LoginModel.swift */; };
-		68AE64792A7E6EF900DC6B25 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE64772A7E6EC200DC6B25 /* LoginModel.swift */; };
+		68ADEFC02A7F932700ED207F /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFBF2A7F932700ED207F /* NetworkProvider.swift */; };
+		68ADEFC12A7F932700ED207F /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFBF2A7F932700ED207F /* NetworkProvider.swift */; };
+		68ADEFCD2A7FCBDB00ED207F /* BalanceBinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFCC2A7FCBDB00ED207F /* BalanceBinance.swift */; };
+		68ADEFCE2A7FCBDB00ED207F /* BalanceBinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADEFCC2A7FCBDB00ED207F /* BalanceBinance.swift */; };
 		68AEFABC2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AEFABB2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift */; };
 		68AEFABD2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AEFABB2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift */; };
-		68DB77772A7D7EE6001DD8EF /* BrokerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB77762A7D7EE6001DD8EF /* BrokerService.swift */; };
-		68DB77782A7D7EE6001DD8EF /* BrokerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB77762A7D7EE6001DD8EF /* BrokerService.swift */; };
+		68B94EBC2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94EBB2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift */; };
+		68B94EBD2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94EBB2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift */; };
+		68B94EBF2AA6679800D8BC05 /* BinanceURLBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94EBE2AA6679800D8BC05 /* BinanceURLBuilderTests.swift */; };
+		68B94EC12AA66F6100D8BC05 /* String+ensurePrefixSlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94EC02AA66F6100D8BC05 /* String+ensurePrefixSlash.swift */; };
+		68B94EC22AA66F6100D8BC05 /* String+ensurePrefixSlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94EC02AA66F6100D8BC05 /* String+ensurePrefixSlash.swift */; };
+		68DB77772A7D7EE6001DD8EF /* BrokerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB77762A7D7EE6001DD8EF /* BrokerProvider.swift */; };
+		68DB77782A7D7EE6001DD8EF /* BrokerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB77762A7D7EE6001DD8EF /* BrokerProvider.swift */; };
 		A7820D182A5485A4B6B59B26 /* Pods_ITCnanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B8D7B16A16ACF087C8EE47 /* Pods_ITCnanceTests.framework */; };
 		E30E4B0C6D752A8DB3908772 /* Pods_ITCnance_ITCnanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F827176633C5202EBD6E102 /* Pods_ITCnance_ITCnanceUITests.framework */; };
 /* End PBXBuildFile section */
@@ -103,15 +118,22 @@
 		687330492A4F5CFD005283A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6873304C2A4F5CFD005283A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		687330522A4F5CFD005283A0 /* ITCnanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITCnanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		687330562A4F5CFD005283A0 /* ITCnanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITCnanceTests.swift; sourceTree = "<group>"; };
 		6873305C2A4F5CFD005283A0 /* ITCnanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITCnanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687330602A4F5CFD005283A0 /* ITCnanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITCnanceUITests.swift; sourceTree = "<group>"; };
 		687330622A4F5CFD005283A0 /* ITCnanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITCnanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		687330722A4F61C7005283A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		687330762A4F6299005283A0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		687330782A4F6436005283A0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		6887270B2A7D957C00C29233 /* BinanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceService.swift; sourceTree = "<group>"; };
+		688105C22AB1A8EC00D70ABC /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		688105C52AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoBinanceEndpoint.swift; sourceTree = "<group>"; };
+		688105C82AB1B79F00D70ABC /* AccountInfoBinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoBinance.swift; sourceTree = "<group>"; };
+		688105CB2AB1BAAF00D70ABC /* AccountInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoDTO.swift; sourceTree = "<group>"; };
+		688105CE2AB1CB4800D70ABC /* ITCnanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITCnanceTests.swift; sourceTree = "<group>"; };
+		6887270B2A7D957C00C29233 /* BinanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceProvider.swift; sourceTree = "<group>"; };
 		6887270E2A7D95BD00C29233 /* URLSession+HTTPWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+HTTPWorker.swift"; sourceTree = "<group>"; };
+		689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceURLBuilder.swift; sourceTree = "<group>"; };
+		6899971B2AA4AA6700671E34 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		6899971E2AA4AB6300671E34 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
 		68A85F172A569AAB00EDFED1 /* ITCnance - Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITCnance - Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ACBEA62A52B714006B5D7B /* QuarterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterLogoView.swift; sourceTree = "<group>"; };
 		68ACBEA82A52B8FF006B5D7B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
@@ -127,12 +149,13 @@
 		68ACBECA2A534A7C006B5D7B /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 		68ACBEDE2A5357B1006B5D7B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		68ADEFB92A7F72CC00ED207F /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
-		68ADEFBF2A7F932700ED207F /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
-		68ADEFC42A7F9CDF00ED207F /* BinanceRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceRequestManager.swift; sourceTree = "<group>"; };
-		68ADEFCC2A7FCBDB00ED207F /* BinanceBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceBalance.swift; sourceTree = "<group>"; };
-		68AE64772A7E6EC200DC6B25 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		68ADEFBF2A7F932700ED207F /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		68ADEFCC2A7FCBDB00ED207F /* BalanceBinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBinance.swift; sourceTree = "<group>"; };
 		68AEFABB2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[URLQueryItem]+queryString.swift"; sourceTree = "<group>"; };
-		68DB77762A7D7EE6001DD8EF /* BrokerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerService.swift; sourceTree = "<group>"; };
+		68B94EBB2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBinanceEndpoint.swift; sourceTree = "<group>"; };
+		68B94EBE2AA6679800D8BC05 /* BinanceURLBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceURLBuilderTests.swift; sourceTree = "<group>"; };
+		68B94EC02AA66F6100D8BC05 /* String+ensurePrefixSlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ensurePrefixSlash.swift"; sourceTree = "<group>"; };
+		68DB77762A7D7EE6001DD8EF /* BrokerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerProvider.swift; sourceTree = "<group>"; };
 		6F54DCF1C4396F7D655CBA47 /* Pods-ITCnance - Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITCnance - Staging.debug.xcconfig"; path = "Target Support Files/Pods-ITCnance - Staging/Pods-ITCnance - Staging.debug.xcconfig"; sourceTree = "<group>"; };
 		6F827176633C5202EBD6E102 /* Pods_ITCnance_ITCnanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITCnance_ITCnanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78291B28C2C891C3DC950B99 /* Pods-ITCnance-ITCnanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITCnance-ITCnanceUITests.release.xcconfig"; path = "Target Support Files/Pods-ITCnance-ITCnanceUITests/Pods-ITCnance-ITCnanceUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -231,7 +254,8 @@
 		687330552A4F5CFD005283A0 /* ITCnanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				687330562A4F5CFD005283A0 /* ITCnanceTests.swift */,
+				688105CE2AB1CB4800D70ABC /* ITCnanceTests.swift */,
+				68B94EBE2AA6679800D8BC05 /* BinanceURLBuilderTests.swift */,
 			);
 			path = ITCnanceTests;
 			sourceTree = "<group>";
@@ -275,7 +299,7 @@
 		6887270A2A7D956800C29233 /* Brokers */ = {
 			isa = PBXGroup;
 			children = (
-				68DB77762A7D7EE6001DD8EF /* BrokerService.swift */,
+				68DB77762A7D7EE6001DD8EF /* BrokerProvider.swift */,
 				68ADEFC32A7F9CC700ED207F /* Binance */,
 			);
 			path = Brokers;
@@ -360,6 +384,7 @@
 			children = (
 				68ACBEC82A5349F7006B5D7B /* View+fixedHeight.swift */,
 				680DCF9D2A7C447F00A2B2E8 /* String+localized.swift */,
+				68B94EC02AA66F6100D8BC05 /* String+ensurePrefixSlash.swift */,
 				6887270E2A7D95BD00C29233 /* URLSession+HTTPWorker.swift */,
 				68AEFABB2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift */,
 			);
@@ -370,7 +395,9 @@
 			isa = PBXGroup;
 			children = (
 				68ADEFB92A7F72CC00ED207F /* RequestManager.swift */,
-				68ADEFBF2A7F932700ED207F /* APIProvider.swift */,
+				6899971E2AA4AB6300671E34 /* URLBuilder.swift */,
+				6899971B2AA4AA6700671E34 /* Endpoint.swift */,
+				68ADEFBF2A7F932700ED207F /* NetworkProvider.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -378,8 +405,9 @@
 		68ADEFC32A7F9CC700ED207F /* Binance */ = {
 			isa = PBXGroup;
 			children = (
-				6887270B2A7D957C00C29233 /* BinanceService.swift */,
-				68ADEFC42A7F9CDF00ED207F /* BinanceRequestManager.swift */,
+				68B94EBA2AA6149100D8BC05 /* Endpoints */,
+				6887270B2A7D957C00C29233 /* BinanceProvider.swift */,
+				689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */,
 			);
 			path = Binance;
 			sourceTree = "<group>";
@@ -395,8 +423,9 @@
 		68AE64762A7E6EB700DC6B25 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				68AE64772A7E6EC200DC6B25 /* LoginModel.swift */,
 				68ADEFCB2A7FCBC600ED207F /* ResponseModels */,
+				688105C22AB1A8EC00D70ABC /* ErrorMessage.swift */,
+				688105CB2AB1BAAF00D70ABC /* AccountInfoDTO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,9 +433,19 @@
 		68B7A8912A842559003EA804 /* Binance */ = {
 			isa = PBXGroup;
 			children = (
-				68ADEFCC2A7FCBDB00ED207F /* BinanceBalance.swift */,
+				68ADEFCC2A7FCBDB00ED207F /* BalanceBinance.swift */,
+				688105C82AB1B79F00D70ABC /* AccountInfoBinance.swift */,
 			);
 			path = Binance;
+			sourceTree = "<group>";
+		};
+		68B94EBA2AA6149100D8BC05 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				68B94EBB2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift */,
+				688105C52AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift */,
+			);
+			path = Endpoints;
 			sourceTree = "<group>";
 		};
 		68DB77742A7D7E29001DD8EF /* BussinesLogic */ = {
@@ -784,28 +823,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				68ACBEB02A52D83E006B5D7B /* VShape.swift in Sources */,
+				6899971F2AA4AB6300671E34 /* URLBuilder.swift in Sources */,
+				68B94EC12AA66F6100D8BC05 /* String+ensurePrefixSlash.swift in Sources */,
+				6899971C2AA4AA6700671E34 /* Endpoint.swift in Sources */,
 				68ADEFBA2A7F72CC00ED207F /* RequestManager.swift in Sources */,
-				68ADEFC52A7F9CDF00ED207F /* BinanceRequestManager.swift in Sources */,
+				688105CC2AB1BAAF00D70ABC /* AccountInfoDTO.swift in Sources */,
 				687330772A4F6299005283A0 /* LoginViewModel.swift in Sources */,
-				6887270C2A7D957C00C29233 /* BinanceService.swift in Sources */,
-				68DB77772A7D7EE6001DD8EF /* BrokerService.swift in Sources */,
+				6887270C2A7D957C00C29233 /* BinanceProvider.swift in Sources */,
+				68DB77772A7D7EE6001DD8EF /* BrokerProvider.swift in Sources */,
+				689997192AA4AA2500671E34 /* BinanceURLBuilder.swift in Sources */,
 				68ACBEB52A533228006B5D7B /* CustomButtonStyle.swift in Sources */,
 				68AEFABC2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift in Sources */,
-				68AE64782A7E6EC200DC6B25 /* LoginModel.swift in Sources */,
+				68B94EBC2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift in Sources */,
 				68ACBEA92A52B8FF006B5D7B /* LogoView.swift in Sources */,
 				687330732A4F61C7005283A0 /* LoginView.swift in Sources */,
 				6887270F2A7D95BD00C29233 /* URLSession+HTTPWorker.swift in Sources */,
+				688105C92AB1B79F00D70ABC /* AccountInfoBinance.swift in Sources */,
 				68ACBEDF2A5357B1006B5D7B /* Constants.swift in Sources */,
 				68ACBEA72A52B714006B5D7B /* QuarterLogoView.swift in Sources */,
 				68ACBEAC2A52D74B006B5D7B /* QuarterCircleShape.swift in Sources */,
 				68ACBEC92A5349F7006B5D7B /* View+fixedHeight.swift in Sources */,
-				68ADEFCD2A7FCBDB00ED207F /* BinanceBalance.swift in Sources */,
+				68ADEFCD2A7FCBDB00ED207F /* BalanceBinance.swift in Sources */,
+				688105C62AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift in Sources */,
 				68ACBEAE2A52D819006B5D7B /* TriangleShape.swift in Sources */,
 				680DCF9E2A7C447F00A2B2E8 /* String+localized.swift in Sources */,
 				687330482A4F5CFC005283A0 /* MainContentView.swift in Sources */,
 				68ACBEB82A5332A9006B5D7B /* CustomTextFieldType.swift in Sources */,
 				687330462A4F5CFC005283A0 /* MainApp.swift in Sources */,
-				68ADEFC02A7F932700ED207F /* APIProvider.swift in Sources */,
+				68ADEFC02A7F932700ED207F /* NetworkProvider.swift in Sources */,
+				688105C32AB1A8EC00D70ABC /* ErrorMessage.swift in Sources */,
 				68ACBECB2A534A7C006B5D7B /* CustomTextFieldStyle.swift in Sources */,
 				68ACBEC62A5348FB006B5D7B /* CustomTextFieldView.swift in Sources */,
 			);
@@ -815,7 +861,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687330572A4F5CFD005283A0 /* ITCnanceTests.swift in Sources */,
+				688105CF2AB1CB4800D70ABC /* ITCnanceTests.swift in Sources */,
+				68B94EBF2AA6679800D8BC05 /* BinanceURLBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,28 +880,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A85EF32A569AAB00EDFED1 /* VShape.swift in Sources */,
+				689997202AA4AB6300671E34 /* URLBuilder.swift in Sources */,
+				68B94EC22AA66F6100D8BC05 /* String+ensurePrefixSlash.swift in Sources */,
+				6899971D2AA4AA6700671E34 /* Endpoint.swift in Sources */,
 				68ADEFBB2A7F72CD00ED207F /* RequestManager.swift in Sources */,
-				68ADEFC62A7F9CDF00ED207F /* BinanceRequestManager.swift in Sources */,
+				688105CD2AB1BAAF00D70ABC /* AccountInfoDTO.swift in Sources */,
 				68A85EF62A569AAB00EDFED1 /* LoginViewModel.swift in Sources */,
-				6887270D2A7D957C00C29233 /* BinanceService.swift in Sources */,
-				68DB77782A7D7EE6001DD8EF /* BrokerService.swift in Sources */,
+				6887270D2A7D957C00C29233 /* BinanceProvider.swift in Sources */,
+				68DB77782A7D7EE6001DD8EF /* BrokerProvider.swift in Sources */,
+				6899971A2AA4AA2500671E34 /* BinanceURLBuilder.swift in Sources */,
 				68A85EF82A569AAB00EDFED1 /* CustomButtonStyle.swift in Sources */,
 				68AEFABD2A80AD1000BDD192 /* [URLQueryItem]+queryString.swift in Sources */,
-				68AE64792A7E6EF900DC6B25 /* LoginModel.swift in Sources */,
+				68B94EBD2AA614B100D8BC05 /* BalanceBinanceEndpoint.swift in Sources */,
 				68A85EFA2A569AAB00EDFED1 /* LogoView.swift in Sources */,
 				68A85EFB2A569AAB00EDFED1 /* LoginView.swift in Sources */,
 				688727102A7D95BD00C29233 /* URLSession+HTTPWorker.swift in Sources */,
+				688105CA2AB1B79F00D70ABC /* AccountInfoBinance.swift in Sources */,
 				68A85EFC2A569AAB00EDFED1 /* Constants.swift in Sources */,
 				68A85EFD2A569AAB00EDFED1 /* QuarterLogoView.swift in Sources */,
 				68A85EFF2A569AAB00EDFED1 /* QuarterCircleShape.swift in Sources */,
 				68A85F002A569AAB00EDFED1 /* View+fixedHeight.swift in Sources */,
-				68ADEFCE2A7FCBDB00ED207F /* BinanceBalance.swift in Sources */,
+				68ADEFCE2A7FCBDB00ED207F /* BalanceBinance.swift in Sources */,
+				688105C72AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift in Sources */,
 				68A85F022A569AAB00EDFED1 /* TriangleShape.swift in Sources */,
 				680DCF9F2A7C447F00A2B2E8 /* String+localized.swift in Sources */,
 				68A85F042A569AAB00EDFED1 /* MainContentView.swift in Sources */,
 				68A85F062A569AAB00EDFED1 /* CustomTextFieldType.swift in Sources */,
 				68A85F072A569AAB00EDFED1 /* MainApp.swift in Sources */,
-				68ADEFC12A7F932700ED207F /* APIProvider.swift in Sources */,
+				68ADEFC12A7F932700ED207F /* NetworkProvider.swift in Sources */,
+				688105C42AB1A8EC00D70ABC /* ErrorMessage.swift in Sources */,
 				68A85F092A569AAB00EDFED1 /* CustomTextFieldStyle.swift in Sources */,
 				68A85F0A2A569AAB00EDFED1 /* CustomTextFieldView.swift in Sources */,
 			);
@@ -1126,7 +1180,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9J9G82D337;
+				DEVELOPMENT_TEAM = 7L3U8V3WMY;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ictnance.gmb.ITCnanceUITests;
@@ -1145,7 +1199,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9J9G82D337;
+				DEVELOPMENT_TEAM = 7L3U8V3WMY;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ictnance.gmb.ITCnanceUITests;
