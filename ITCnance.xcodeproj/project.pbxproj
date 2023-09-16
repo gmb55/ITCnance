@@ -27,11 +27,11 @@
 		688105CA2AB1B79F00D70ABC /* AccountInfoBinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105C82AB1B79F00D70ABC /* AccountInfoBinance.swift */; };
 		688105CC2AB1BAAF00D70ABC /* AccountInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105CB2AB1BAAF00D70ABC /* AccountInfoDTO.swift */; };
 		688105CD2AB1BAAF00D70ABC /* AccountInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105CB2AB1BAAF00D70ABC /* AccountInfoDTO.swift */; };
-		688105CF2AB1CB4800D70ABC /* ITCnanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688105CE2AB1CB4800D70ABC /* ITCnanceTests.swift */; };
 		6887270C2A7D957C00C29233 /* BinanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270B2A7D957C00C29233 /* BinanceProvider.swift */; };
 		6887270D2A7D957C00C29233 /* BinanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270B2A7D957C00C29233 /* BinanceProvider.swift */; };
 		6887270F2A7D95BD00C29233 /* URLSession+HTTPWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270E2A7D95BD00C29233 /* URLSession+HTTPWorker.swift */; };
 		688727102A7D95BD00C29233 /* URLSession+HTTPWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887270E2A7D95BD00C29233 /* URLSession+HTTPWorker.swift */; };
+		688C187F2AB398D800927F0D /* RequestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688C187E2AB398D800927F0D /* RequestManagerTests.swift */; };
 		689997192AA4AA2500671E34 /* BinanceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */; };
 		6899971A2AA4AA2500671E34 /* BinanceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */; };
 		6899971C2AA4AA6700671E34 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971B2AA4AA6700671E34 /* Endpoint.swift */; };
@@ -128,9 +128,9 @@
 		688105C52AB1B51C00D70ABC /* AccountInfoBinanceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoBinanceEndpoint.swift; sourceTree = "<group>"; };
 		688105C82AB1B79F00D70ABC /* AccountInfoBinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoBinance.swift; sourceTree = "<group>"; };
 		688105CB2AB1BAAF00D70ABC /* AccountInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoDTO.swift; sourceTree = "<group>"; };
-		688105CE2AB1CB4800D70ABC /* ITCnanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITCnanceTests.swift; sourceTree = "<group>"; };
 		6887270B2A7D957C00C29233 /* BinanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceProvider.swift; sourceTree = "<group>"; };
 		6887270E2A7D95BD00C29233 /* URLSession+HTTPWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+HTTPWorker.swift"; sourceTree = "<group>"; };
+		688C187E2AB398D800927F0D /* RequestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerTests.swift; sourceTree = "<group>"; };
 		689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceURLBuilder.swift; sourceTree = "<group>"; };
 		6899971B2AA4AA6700671E34 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		6899971E2AA4AB6300671E34 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
@@ -254,8 +254,8 @@
 		687330552A4F5CFD005283A0 /* ITCnanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				688105CE2AB1CB4800D70ABC /* ITCnanceTests.swift */,
 				68B94EBE2AA6679800D8BC05 /* BinanceURLBuilderTests.swift */,
+				688C187E2AB398D800927F0D /* RequestManagerTests.swift */,
 			);
 			path = ITCnanceTests;
 			sourceTree = "<group>";
@@ -861,8 +861,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688105CF2AB1CB4800D70ABC /* ITCnanceTests.swift in Sources */,
 				68B94EBF2AA6679800D8BC05 /* BinanceURLBuilderTests.swift in Sources */,
+				688C187F2AB398D800927F0D /* RequestManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

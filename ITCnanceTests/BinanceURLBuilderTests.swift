@@ -12,17 +12,17 @@ final class BinanceURLBuilderTests: XCTestCase {
 
     let mockSecretKey = "your_mock_secret_key"
 
-    func testBaseURL() {
+    func test_base_url() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         XCTAssertEqual(builder.baseURL, Constants.API.binance.baseURLString())
     }
 
-    func testSecretKey() {
+    func test_secret_key() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         XCTAssertEqual(builder.secretKey, mockSecretKey)
     }
 
-    func testCreateURL() {
+    func test_create_url() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         let parameters: [String: Any] = ["param1": "value1", "param2": 42]
         
@@ -35,7 +35,7 @@ final class BinanceURLBuilderTests: XCTestCase {
         }
     }
 
-    func testQueryItems() {
+    func test_query_items() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         let parameters: [String: Any] = ["param1": "value1", "param2": 42]
 
@@ -52,7 +52,7 @@ final class BinanceURLBuilderTests: XCTestCase {
         }
     }
     
-    func testQueryItemsContainsParameters() {
+    func test_query_items_contains_parameters() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         let parameters: [String: Any] = ["param1": "value1", "param2": 42]
 
@@ -70,7 +70,7 @@ final class BinanceURLBuilderTests: XCTestCase {
         }
     }
     
-    func testQueryItemsContainsTimestamp() {
+    func test_query_items_contains_timestamp() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         let parameters: [String: Any] = ["param1": "value1", "param2": 42]
 
@@ -89,7 +89,7 @@ final class BinanceURLBuilderTests: XCTestCase {
         }
     }
     
-    func testQueryItemsContainsSignature() {
+    func test_query_items_contains_signature() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         let parameters: [String: Any] = ["param1": "value1", "param2": 42]
 
