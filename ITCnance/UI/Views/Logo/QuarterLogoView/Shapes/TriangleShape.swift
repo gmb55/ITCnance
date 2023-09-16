@@ -11,8 +11,8 @@ struct TriangleShape: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         
-        let referenceUnitWidth = rect.maxX / 17
-        let referenceUnitHeight = rect.maxY / 17
+        let referenceUnitWidth = rect.maxX / Constants.General.logoScaleReferenceUnit
+        let referenceUnitHeight = rect.maxY / Constants.General.logoScaleReferenceUnit
         
         let rightTopPoint = CGPoint(
             x: rect.midX,
