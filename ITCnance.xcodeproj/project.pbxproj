@@ -38,6 +38,7 @@
 		6899971D2AA4AA6700671E34 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971B2AA4AA6700671E34 /* Endpoint.swift */; };
 		6899971F2AA4AB6300671E34 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971E2AA4AB6300671E34 /* URLBuilder.swift */; };
 		689997202AA4AB6300671E34 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899971E2AA4AB6300671E34 /* URLBuilder.swift */; };
+		689E5BAF2AB8D6D600855293 /* NetworkProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E5BAE2AB8D6D600855293 /* NetworkProviderTests.swift */; };
 		68A85EF32A569AAB00EDFED1 /* VShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACBEAF2A52D83E006B5D7B /* VShape.swift */; };
 		68A85EF62A569AAB00EDFED1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687330762A4F6299005283A0 /* LoginViewModel.swift */; };
 		68A85EF82A569AAB00EDFED1 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACBEB42A533228006B5D7B /* CustomButtonStyle.swift */; };
@@ -134,6 +135,7 @@
 		689997182AA4AA2500671E34 /* BinanceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceURLBuilder.swift; sourceTree = "<group>"; };
 		6899971B2AA4AA6700671E34 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		6899971E2AA4AB6300671E34 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		689E5BAE2AB8D6D600855293 /* NetworkProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProviderTests.swift; sourceTree = "<group>"; };
 		68A85F172A569AAB00EDFED1 /* ITCnance - Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITCnance - Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ACBEA62A52B714006B5D7B /* QuarterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterLogoView.swift; sourceTree = "<group>"; };
 		68ACBEA82A52B8FF006B5D7B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				68B94EBE2AA6679800D8BC05 /* BinanceURLBuilderTests.swift */,
+				689E5BAE2AB8D6D600855293 /* NetworkProviderTests.swift */,
 				688C187E2AB398D800927F0D /* RequestManagerTests.swift */,
 			);
 			path = ITCnanceTests;
@@ -862,6 +865,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B94EBF2AA6679800D8BC05 /* BinanceURLBuilderTests.swift in Sources */,
+				689E5BAF2AB8D6D600855293 /* NetworkProviderTests.swift in Sources */,
 				688C187F2AB398D800927F0D /* RequestManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,7 @@ import CryptoSwift
 import Foundation
 
 enum NetworkError: Error {
-    case failToCreateRequest
+    case failToFetchData
     case failToCreateQuery
     case failToCreateSignature
     case invalidBaseURL
@@ -35,7 +35,7 @@ class NetworkProviderImp: NetworkProvider {
     func data(for urlRequest: URLRequest) async throws -> (Data, URLResponse) {
         guard
             let (data, response) = try? await httpWorker.data(for: urlRequest)
-        else { throw NetworkError.failToCreateRequest }
+        else { throw NetworkError.failToFetchData }
 
         return (data, response)
     }
