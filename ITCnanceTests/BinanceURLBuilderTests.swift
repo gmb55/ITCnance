@@ -12,13 +12,9 @@ final class BinanceURLBuilderTests: XCTestCase {
 
     let mockSecretKey = "your_mock_secret_key"
 
-    func test_base_url() {
+    func test_init_variables() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         XCTAssertEqual(builder.baseURL, Constants.API.binance.baseURLString())
-    }
-
-    func test_secret_key() {
-        let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         XCTAssertEqual(builder.secretKey, mockSecretKey)
     }
 
