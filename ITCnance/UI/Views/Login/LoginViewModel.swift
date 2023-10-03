@@ -12,11 +12,10 @@ class LoginViewModel: ObservableObject {
 
     func fetchBinanceAccountInfo() async -> AccountInfoDTO? {
         let service = BinanceProvider(
-            urlBuilder: BinanceURLBuilder(
-                secretKey: ""
-            ),
-            apiKey: ""
+            urlBuilder: BinanceURLBuilder(secretKey: secretKey),
+            apiKey: apiKey
         )
+        
         return try? await service.accountInfo()
     }
 }
