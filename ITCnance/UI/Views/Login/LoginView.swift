@@ -3,7 +3,9 @@ import SwiftUI
 struct LoginView: View {
     @StateObject private var viewModel = LoginViewModel()
     @State private var showingDemoAlert = false
-    @State private var showingLogin = false
+    @State private var showingLoginAlert = false
+    @State private var loginAlertTitle = ""
+    @State private var isLoading = false
 
     var body: some View {
         NavigationView {
@@ -24,13 +26,21 @@ struct LoginView: View {
                     .padding(.bottom, 40)
 
                 Button(action: {
+                    isLoading = true
                     Task {
-                        await viewModel.fetchBinanceAccountInfo()
+                        let isSuccess = await viewModel.fetchedBinanceAccountInfoWithSuccess()
+
+                        isLoading = false
+                        loginAlertTitle = isSuccess ? "logged.in".localized() : "login.failed".localized()
+                        showingLoginAlert = true
                     }
                 }) {
                     Text("continue".localized())
                 }
                 .buttonStyle(CustomButtonStyle(backgroundColor: Color("brightSun")))
+                .alert(loginAlertTitle, isPresented: $showingLoginAlert) {
+                    Button("ok".localized(), role: .cancel) { }
+                }
 
                 HStack(spacing: 12) {
                     Rectangle()
@@ -59,6 +69,9 @@ struct LoginView: View {
             .padding(20)
             .background(Color("woodsmoke"))
         }
+        .overlay(
+            isLoading ? ProgressView() : nil
+        )
     }
 }
 

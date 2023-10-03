@@ -14,3 +14,5 @@
 "or" = "lub";
 "ok" = "Ok";
 "feature.unavailable" = "Funkcja niedostępna.";
+"logged.in" = "Zalogowano.";
+"login.failed" = "Logowanie nie powiodło się.";

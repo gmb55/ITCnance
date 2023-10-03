@@ -14,3 +14,5 @@
 "or" = "or";
 "ok" = "Ok";
 "feature.unavailable" = "Feature unavailable.";
+"logged.in" = "Logged in.";
+"login.failed" = "Login failed.";
