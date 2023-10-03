@@ -12,13 +12,9 @@ final class BinanceURLBuilderTests: XCTestCase {
 
     let mockSecretKey = "your_mock_secret_key"
 
-    func test_base_url() {
+    func test_init_variables() {
         let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         XCTAssertEqual(builder.baseURL, Constants.API.binance.baseURLString())
-    }
-
-    func test_secret_key() {
-        let builder = BinanceURLBuilder(secretKey: mockSecretKey)
         XCTAssertEqual(builder.secretKey, mockSecretKey)
     }
 
@@ -45,7 +41,7 @@ final class BinanceURLBuilderTests: XCTestCase {
             if let queryItems = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems {
                 XCTAssertEqual(queryItems.count, parameters.count + 2)
             } else {
-                XCTFail("Failed to generate urlCompoments")
+                XCTFail("Failed to generate urlComponents")
             }
         } catch {
             XCTFail("Failed to generate query items: \(error)")
@@ -63,7 +59,7 @@ final class BinanceURLBuilderTests: XCTestCase {
                 XCTAssertEqual(queryItems.first?.name, parameters.first?.key)
                 XCTAssertEqual(queryItems.dropFirst().first?.name, parameters.dropFirst().first?.key)
             } else {
-                XCTFail("Failed to generate urlCompoments")
+                XCTFail("Failed to generate urlComponents")
             }
         } catch {
             XCTFail("Failed to generate query items: \(error)")
@@ -82,7 +78,7 @@ final class BinanceURLBuilderTests: XCTestCase {
                 
                 XCTAssertEqual(queryItemsWithoutSignature.last?.name, "timestamp")
             } else {
-                XCTFail("Failed to generate urlCompoments")
+                XCTFail("Failed to generate urlComponents")
             }
         } catch {
             XCTFail("Failed to generate query items: \(error)")
@@ -99,7 +95,7 @@ final class BinanceURLBuilderTests: XCTestCase {
             if let queryItems = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems {
                 XCTAssertEqual(queryItems.last?.name, "signature")
             } else {
-                XCTFail("Failed to generate urlCompoments")
+                XCTFail("Failed to generate urlComponents")
             }
         } catch {
             XCTFail("Failed to generate query items: \(error)")

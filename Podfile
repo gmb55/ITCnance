@@ -19,6 +19,6 @@ target 'ITCnance' do
   end
 end
 
-target 'ITCnance - Staging' do
+target 'ITCnance - Dev' do
   all_pods
 end

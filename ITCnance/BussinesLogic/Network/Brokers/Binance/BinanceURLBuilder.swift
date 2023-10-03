@@ -60,6 +60,7 @@ private extension BinanceURLBuilder {
         else { throw NetworkError.failToCreateQuery }
         
         let key = secretKey.bytes
+        // TODO(mb): move dependency to init()
         let hmac = HMAC(key: key, variant: .sha2(.sha256))
         
         guard

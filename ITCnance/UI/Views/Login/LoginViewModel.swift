@@ -4,19 +4,13 @@ class LoginViewModel: ObservableObject {
     @Published var apiKey: String = ""
     @Published var secretKey: String = ""
 
-    init() {
-        Task {
-            await fetchBinanceAccountInfo()
-        }
-    }
-
-    func fetchBinanceAccountInfo() async -> AccountInfoDTO? {
+    func fetchedBinanceAccountInfoWithSuccess() async -> Bool {
         let service = BinanceProvider(
-            urlBuilder: BinanceURLBuilder(
-                secretKey: ""
-            ),
-            apiKey: ""
+            urlBuilder: BinanceURLBuilder(secretKey: secretKey),
+            apiKey: apiKey
         )
-        return try? await service.accountInfo()
+        let accountInfo = try? await service.accountInfo()
+
+        return accountInfo != nil
     }
 }
